@@ -1,0 +1,45 @@
+{
+  "notes": "Auto-generated insights. Review outputs/*.csv for details.",
+  "recommendations": [
+    "Identify and standardize SKU/ID across internal catalog, marketplace feeds, and competitor tracking to enable reliable joins.",
+    "Prioritize replenishment for top movers and SKUs with low stock and high demand (see outputs/top_inventory_movers.csv).",
+    "Run price optimization for SKUs with large positive price_diff (we are more expensive than marketplace) to improve competitiveness.",
+    "Investigate SKUs with poor performance metrics (low CTR/Conversion) and high inventory levels\u2014consider promotions or delist.",
+    "Enhance competitor intelligence schema to include timestamped price history, shipping, and promotions for accurate parity checks."
+  ],
+  "summaries_sample": {
+    "internal_catalog_rows": 10,
+    "internal_catalog_columns": [
+      "item_code",
+      "product_line",
+      "brand_name",
+      "suggested_retail",
+      "cost_basis",
+      "launch_date",
+      "lifecycle_stage",
+      "priority_tier",
+      "min_advertised_price",
+      "product_description"
+    ],
+    "internal_catalog_sku_candidates": [
+      "product_line",
+      "product_description"
+    ],
+    "internal_catalog_numeric_cols": [
+      "suggested_retail",
+      "cost_basis",
+      "min_advertised_price"
+    ],
+    "catalog_price_mean": 151.59,
+    "catalog_price_median": 111.99,
+    "inventory_movements_rows": 10,
+    "inventory_movements_sku_candidates": [
+      "sku"
+    ],
+    "inventory_movements_qty_candidates": [
+      "units_shipped",
+      "units_returned"
+    ],
+    "performance_metrics_rows": 23
+  }
+}

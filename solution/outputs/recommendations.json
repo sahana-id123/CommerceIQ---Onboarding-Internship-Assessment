@@ -1,0 +1,7 @@
+[
+  "Identify and standardize SKU/ID across internal catalog, marketplace feeds, and competitor tracking to enable reliable joins.",
+  "Prioritize replenishment for top movers and SKUs with low stock and high demand (see outputs/top_inventory_movers.csv).",
+  "Run price optimization for SKUs with large positive price_diff (we are more expensive than marketplace) to improve competitiveness.",
+  "Investigate SKUs with poor performance metrics (low CTR/Conversion) and high inventory levels\u2014consider promotions or delist.",
+  "Enhance competitor intelligence schema to include timestamped price history, shipping, and promotions for accurate parity checks."
+]

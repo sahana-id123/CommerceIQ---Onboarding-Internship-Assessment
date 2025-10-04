@@ -1,0 +1,56 @@
+{
+  "internal_catalog_rows": 10,
+  "internal_catalog_columns": [
+    "item_code",
+    "product_line",
+    "brand_name",
+    "suggested_retail",
+    "cost_basis",
+    "launch_date",
+    "lifecycle_stage",
+    "priority_tier",
+    "min_advertised_price",
+    "product_description"
+  ],
+  "internal_catalog_sku_candidates": [
+    "product_line",
+    "product_description"
+  ],
+  "internal_catalog_numeric_cols": [
+    "suggested_retail",
+    "cost_basis",
+    "min_advertised_price"
+  ],
+  "catalog_price_mean": 151.59,
+  "catalog_price_median": 111.99,
+  "inventory_movements_rows": 10,
+  "inventory_movements_sku_candidates": [
+    "sku"
+  ],
+  "inventory_movements_qty_candidates": [
+    "units_shipped",
+    "units_returned"
+  ],
+  "performance_metrics_rows": 23,
+  "performance_metrics_columns": [
+    "week_ending",
+    "identifier",
+    "channel",
+    "impressions",
+    "clicks",
+    "conversions",
+    "ad_spend",
+    "revenue",
+    "search_rank_avg",
+    "competitor_price_index"
+  ],
+  "performance_avg_conv": 64.43478260869566,
+  "competitor_rows": 1,
+  "marketplace_rows": 1,
+  "merge_keys_guess": {
+    "catalog_key": "product_line",
+    "market_key": "platforms.amazon.products"
+  },
+  "merged_rows": 10,
+  "price_gap_note": "Not enough price columns found to compute gap."
+}
